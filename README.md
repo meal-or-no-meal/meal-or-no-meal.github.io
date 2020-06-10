@@ -1,4 +1,4 @@
-## Meal of Fortune
+## Ground rules for Meal of Fortune
 
 Spin the Meal Wheel!
 

@@ -30,4 +30,6 @@ Disagreement Resolution
 ## Endorsements
 
 * Paul Cutter
+* Mickie Morlang
+* Levi Sanchez
 * Ambar Rodriguez
