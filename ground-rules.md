@@ -30,3 +30,4 @@ Disagreement Resolution
 ## Endorsements
 
 * Paul Cutter
+* Mickie Morlang
