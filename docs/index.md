@@ -59,11 +59,13 @@ Meal planning is the best way to create healthier meals on an on-going basis. It
 * **External services**
 
 * Google Calendar
+   
     * [Google Calendar API](https://developers.google.com/calendar)
     * User will be able to schedule meals for specific dates. 
     
  
  * Spoontacular API
+   
     * [Spoontacular API](https://spoonacular.com/food-api/docs)
     * Data interface for recipe and ingredient lists
 
@@ -73,6 +75,8 @@ Meal planning is the best way to create healthier meals on an on-going basis. It
    * [Project Calendar Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Calendar.java)
    * [Project Ingredient Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Ingredient.java)
    * [Project Meal Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Meal.java)
+   * [Project User Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/User.java)   
+   * [Project List Item Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/ListItem.java)   
 
 ## Stretch goals/possible enhancements
 
