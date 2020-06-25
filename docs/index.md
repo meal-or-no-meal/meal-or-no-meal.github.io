@@ -6,7 +6,7 @@ layout: default
 
 ## Summary
 
-_Meal of Fortune_ has multiple purposes - it will allow you to create meals and add them to a shareable calendar. It will also generate a grocery list based on your planned meals. **AND** it can randomly generate a meal plan for your week if you have trouble deciding what you would like to eat!
+Meal planning is the best way to create healthier meals on an on-going basis. It can also help to save money and reduce food waste. The tradeoff is often the time it takes to create the shopping lists, frequent trips to the store, or eating the same meals over and over.  Meal or no meal solves this by combining the convenience of allows users to choose from a wide variety of meals, or to create their own meals and share them.  The app also helps users easily organize meals using a calendar. It also automatically generates a shopping list based on all of the meals scheduled. 
 
 
 ## Intended users
@@ -43,8 +43,16 @@ _Meal of Fortune_ has multiple purposes - it will allow you to create meals and 
 
 * **Device/external services**
 
+* Google Calendar
     * [Google Calendar API](https://developers.google.com/calendar)
+    * User will be able to schedule meals for specific dates. 
+    * [Project Calendar Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Calendar.java)
+ 
+* Spoontacular API   
     * [Spoontacular API](https://spoonacular.com/food-api/docs)
+    * Data interface for recipe and ingredient lists
+    * [Project Ingredient Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Ingredient.java)
+    * [Project Meal Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Meal.java)
 
 ## Server component
 
