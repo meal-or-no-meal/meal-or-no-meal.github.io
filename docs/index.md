@@ -40,20 +40,9 @@ Meal planning is the best way to create healthier meals on an on-going basis. It
     * Meals (both downloaded and created)
     * User's calendar(s) (both downloaded and created)
     * Shopping lists
-
-* **Device/external services**
-
-* Google Calendar
-    * [Google Calendar API](https://developers.google.com/calendar)
-    * User will be able to schedule meals for specific dates. 
-    * [Project Calendar Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Calendar.java)
- 
- * Spoontacular API
-    * [Spoontacular API](https://spoonacular.com/food-api/docs)
-    * Data interface for recipe and ingredient lists
-    * [Project Ingredient Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Ingredient.java)
-    * [Project Meal Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Meal.java)
-
+   
+   
+  
 ## Server component
 
 * **Functionality**
@@ -69,7 +58,20 @@ Meal planning is the best way to create healthier meals on an on-going basis. It
 
 * **External services**
 
-    Server will likely require access to the [Spoontacular API](https://spoonacular.com/food-api/docs)
+* Google Calendar
+    * [Google Calendar API](https://developers.google.com/calendar)
+    * User will be able to schedule meals for specific dates. 
+    
+ 
+ * Spoontacular API
+    * [Spoontacular API](https://spoonacular.com/food-api/docs)
+    * Data interface for recipe and ingredient lists
+
+
+ * **Entities**
+   * [Project Calendar Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Calendar.java)
+   * [Project Ingredient Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Ingredient.java)
+   * [Project Meal Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Meal.java)
 
 ## Stretch goals/possible enhancements
 
