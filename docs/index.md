@@ -48,7 +48,7 @@ Meal planning is the best way to create healthier meals on an on-going basis. It
     * User will be able to schedule meals for specific dates. 
     * [Project Calendar Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Calendar.java)
  
-* Spoontacular API   
+ *Spoontacular API   
     * [Spoontacular API](https://spoonacular.com/food-api/docs)
     * Data interface for recipe and ingredient lists
     * [Project Ingredient Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Ingredient.java)
