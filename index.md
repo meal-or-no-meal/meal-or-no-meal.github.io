@@ -6,7 +6,7 @@ layout: default
 
 ## Summary
 
-Meal planning is the best way to create healthier meals on an on-going basis. It can also help to save money and reduce food waste. The tradeoff is often the time it takes to create the shopping lists, frequent trips to the store, or eating the same meals over and over.  Meal or no meal solves this by combining the convenience of allows users to choose from a wide variety of meals, or to create their own meals and share them.  The app also helps users easily organize meals using a calendar. It also automatically generates a shopping list based on all of the meals scheduled. 
+Meal planning is the best way to create healthier meals on an on-going basis. It can also help to save money and reduce food waste. The trade-offs are often the time it takes to create the shopping lists, frequent trips to the store, or eating the same meals over and over.  Meal or no meal solves this by combining the convenience that allows users to choose from a wide variety of meals, or to create their own meals and share them.  The app also helps users easily organize meals using a calendar. It also automatically generates a shopping list based on all of the meals scheduled. 
 
 
 ## Intended users
@@ -52,9 +52,10 @@ Meal planning is the best way to create healthier meals on an on-going basis. It
 * **Persistent data**
 
     Server side content will include:
-      * monthly and weekly pre-made meal calendars uploaded by users
+    
+    * monthly and weekly pre-made meal calendars uploaded by users
       
-      * meal profiles which include their ingredients, cook time, health data and tags for dietary restrictions
+    * meal profiles which include their ingredients, cook time, health data and tags for dietary restrictions
 
 * **External services**
 
