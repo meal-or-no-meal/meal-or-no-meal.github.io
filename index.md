@@ -6,7 +6,8 @@ layout: default
 
 ## Summary
 
-Meal planning is the best way to create healthier meals on an on-going basis. It can also help to save money and reduce food waste. The trade-offs are often the time it takes to create the shopping lists, frequent trips to the store, or eating the same meals over and over.  Meal or no meal solves this by combining the convenience that allows users to choose from a wide variety of meals, or to create their own meals and share them.  The app also helps users easily organize meals using a calendar. It also automatically generates a shopping list based on all of the meals scheduled. 
+Meal planning is the best way to create healthier meals on an ongoing basis. It can also help to save money and reduce food waste. The trade-offs are often the time it takes to create shopping lists, frequent trips to the store, or eating the same meals over and over. Meal Or No Meal helps make the process of meal planning easier and, dare we say it, fun! The application allows users to choose from a wide variety of meals, share meals they've created, and add them to a calendar. For the indecisive eaters, Meal Or No Meal can also randomly populate the user's calendar with meals. Say _"So long!"_ to that pesky task of creating a shopping list by using our Generate Shopping List feature based on the user's planned meals. Users can welcome food-planning back into their life and take it to the next level with Meal Or No Meal. 
+ 
 
 
 ## Intended users
