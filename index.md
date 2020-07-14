@@ -95,6 +95,17 @@ It can also help to save money and reduce food waste. The trade-offs are often t
    * [Project User Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/User.java)   
    * [Project List Item Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/ListItem.java)   
 
+*  **REST Controllers**
+
+   * [Calendar Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/CalendarController.java)
+   * [Ingredient Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/IngredientController.java)
+   * [List Item Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/ListItemController.java)
+   * [Meal Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/MealController.java)
+   * [User Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/UserController.java)
+
+
+
+
 ## Stretch goals/possible enhancements
 
 * Added functionality where you can list the ingredients you have and it will return a list of meals you can cook
