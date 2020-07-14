@@ -1,12 +1,25 @@
 ---
-title: Meal of Fortune
+title: Meal Or No Meal
 description: The Meal Planner / Grocery Lister Extraordinaire!
 layout: default
 ---
+## Team Members
+#### Paul Cutter
+#### Mickie Morlang
+#### Levi Sanchez
+#### Ambar Rodriguez
+
 
 ## Summary
 
-Meal planning is the best way to create healthier meals on an ongoing basis. It can also help to save money and reduce food waste. The trade-offs are often the time it takes to create shopping lists, frequent trips to the store, or eating the same meals over and over. Meal Or No Meal helps make the process of meal planning easier and, dare we say it, fun! The application allows users to choose from a wide variety of meals, share meals they've created, and add them to a calendar. For the indecisive eaters, Meal Or No Meal can also randomly populate the user's calendar with meals. Say _"So long!"_ to that pesky task of creating a shopping list by using our Generate Shopping List feature based on the user's planned meals. Users can welcome food-planning back into their life and take it to the next level with Meal Or No Meal. 
+Meal planning is the best way to create healthier meals on an ongoing basis. 
+It can also help to save money and reduce food waste. The trade-offs are often the time it takes to create
+ shopping lists, frequent trips to the store, or eating the same meals over and over. Meal Or No Meal helps 
+ make the process of meal planning easier and, dare we say it, fun! The application allows users to choose from 
+ a wide variety of meals, share meals they've created, and add them to a calendar. For the indecisive eaters, 
+ Meal Or No Meal can also randomly populate the user's calendar with meals. Say _"So long!"_ to that pesky
+  task of creating a shopping list by using our Generate Shopping List feature based on the user's planned meals.
+   Users can welcome food-planning back into their life and take it to the next level with Meal Or No Meal. 
  
 
 
