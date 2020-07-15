@@ -103,7 +103,9 @@ It can also help to save money and reduce food waste. The trade-offs are often t
    * [Meal Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/MealController.java)
    * [User Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/UserController.java)
 
+* **WIREFRAMES**
 
+    [Wireframes](wireframe.md)
 
 
 ## Stretch goals/possible enhancements
