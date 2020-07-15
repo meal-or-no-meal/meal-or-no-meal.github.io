@@ -2,7 +2,7 @@
 
 ## Communication
 Under Normal Circumstances
-* Slack will be the primary method of breif communication under normal circumstances
+* Slack will be the primary method of brief communication under normal circumstances
 * Google Meets will be used for extended communication under normal circumstances
 
 Under non-normal communication circumstances 
