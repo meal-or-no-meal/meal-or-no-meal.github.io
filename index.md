@@ -1,12 +1,26 @@
 ---
-title: Meal of Fortune
+title: Meal Or No Meal
 description: The Meal Planner / Grocery Lister Extraordinaire!
 layout: default
 ---
+## Team Members
+#### Paul Cutter
+#### Mickie Morlang
+#### Levi Sanchez
+#### Ambar Rodriguez
+
 
 ## Summary
 
-Meal planning is the best way to create healthier meals on an ongoing basis. It can also help to save money and reduce food waste. The trade-offs are often the time it takes to create the shopping lists, frequent trips to the store, or eating the same meals over and over.  Meal or no meal solves this by offering different features allows users to choose from a wide variety of meals, or to create their own meals and share them.  The app also helps users easily organize meals using a calendar. It also automatically generates a shopping list based on all of the meals scheduled. 
+Meal planning is the best way to create healthier meals on an ongoing basis. 
+It can also help to save money and reduce food waste. The trade-offs are often the time it takes to create
+ shopping lists, frequent trips to the store, or eating the same meals over and over. Meal Or No Meal helps 
+ make the process of meal planning easier and, dare we say it, fun! The application allows users to choose from 
+ a wide variety of meals, share meals they've created, and add them to a calendar. For the indecisive eaters, 
+ Meal Or No Meal can also randomly populate the user's calendar with meals. Say _"So long!"_ to that pesky
+  task of creating a shopping list by using our Generate Shopping List feature based on the user's planned meals.
+   Users can welcome food-planning back into their life and take it to the next level with Meal Or No Meal. 
+ 
 
 
 ## Intended users
@@ -80,6 +94,17 @@ Meal planning is the best way to create healthier meals on an ongoing basis. It 
    * [Project Meal Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/Meal.java)
    * [Project User Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/User.java)   
    * [Project List Item Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/ListItem.java)   
+
+*  **REST Controllers**
+
+   * [Calendar Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/CalendarController.java)
+   * [Ingredient Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/IngredientController.java)
+   * [List Item Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/ListItemController.java)
+   * [Meal Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/MealController.java)
+   * [User Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/UserController.java)
+
+
+
 
 ## Stretch goals/possible enhancements
 
