@@ -106,6 +106,10 @@ It can also help to save money and reduce food waste. The trade-offs are often t
 * **WIREFRAMES**
 
     [Wireframes](wireframe.md)
+    
+* **DDL**
+   
+   [ddl.md](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/docs/ddl.md)   
 
 
 ## Stretch goals/possible enhancements
