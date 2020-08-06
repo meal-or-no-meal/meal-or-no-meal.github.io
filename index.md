@@ -27,7 +27,7 @@ _Navigation, User Entity, Styling_
 
 
 ## Project Overview
-* [Overview PDF](project.pdf)
+* [Overview PDF](https://github.com/meal-or-no-meal/meal-or-no-meal.github.io/blob/master/pdf/project.pdf)
 
 ## Summary
 
