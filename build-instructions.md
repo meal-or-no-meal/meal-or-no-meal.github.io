@@ -1,6 +1,12 @@
 ### Build Instructions
 
+#### BackEnd Server 
 1. Go to the following link [Meal Or No Meal](https://github.com/meal-or-no-meal/meal-or-no-meal-android)
+2. Click on the green Code button
+3. Ensure that Clone with SSH is selected
+
+#### Android APP
+1. Go to the following link [Meal Or No Meal - android](https://github.com/meal-or-no-meal/meal-or-no-meal-android)
 2. Click on the green Code button
 3. Ensure that Clone with SSH is selected
     * If HTTPS is selected, click on SSH in the upper right-hand corner of dialog box.
