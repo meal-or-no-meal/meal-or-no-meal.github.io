@@ -52,7 +52,7 @@ This app (and what it aims to be) can help with all of that.
 There are 3 Key Functional Aspects to Meal or No Meal
 
 First - there's the ability to create/edit/delete a meal and store/retrieve that information from the database.
-This will include details such as the Name, Recipe, Ingredients, and Equipment needed to prepare the meal (e.g. a blender, a large pot, etc.)
+This will include details such as the Name, Recipe, Ingredients, and Prep Time (in minutes).
 
 Next there's the ability to save a meal to a Breakfast, Lunch, or Dinner slot on the calendar. You can 
 select a day on the calendar and view the meals scheduled for that day. Then you can select one of those
@@ -63,6 +63,43 @@ It will generate a list of ingredients based on the meals you currently have sch
 range. This list display will allow the user to check/uncheck ingredients as a visual cue for whether or not
 they need to acquire that ingredient. 
 
+## Current State of Meal or No Meal
+
+The current state of Meal or No Meal can be best described as "tween" - that is to say:
+It's mature enough to do some chores. It does some chores well, it won't do some chores at all. And if
+you ask it in the wrong way- it might give you some sass. 
+
+#### What It Does
+What the app is currently able to do:
+  * User can create a meal with a Name, Recipe, Equipment Needed, and Prep Time in minutes.
+  * Meals can be edited and deleted by the User. 
+  * Meals can be stored and retrieved from the database.
+  * Meals can be scheduled to a Meal Slot on the calendar.
+  * Navigate between Meals, Calendar, and Shopping List with bottom navigation.
+    
+    
+#### Improvements
+What we would like to improve:
+* High Priority Items
+
+    * INCOMPLETE - Ingredients are not currently being stored or retrieved. They also need to be
+    parsed from Strings to Lists of ingredient items.
+    * INCOMPLETE - Shopping List does is not currently wired to retreive ingredients and needs date-range
+    logic in the query
+    * INCOMPLETE - Selecting a meal from a meal slot on the Calendar fragment does not yet display the details of the selected
+    meal.
+    * INCOMPLETE - Calendar does not currently display the 
+    
+    
+* Medium Priority Items
+
+    * INCOMPLETE - Layout needs to be locked into a vertical mode.
+    * BUG - Issue scheduling two meals in the same meal slot needs to be resolved.
+    * INCOMPLETE - Unable to remove meals from a scheduled slot
+    * INCOMPLETE - Replace EditTexts for Meal Details input with a text popup to improve
+    visual aesthetic and user functionality
+    
+    
 
 ## Intended users
 
