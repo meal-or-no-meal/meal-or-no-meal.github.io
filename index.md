@@ -213,7 +213,7 @@ What we would like to improve:
    * [Project List Item Entity](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/model/entity/ListItem.java)   
 
 *  **REST Controllers**
-
+    [REST Documentation](api.md)
    * [Calendar Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/CalendarController.java)
    * [Ingredient Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/IngredientController.java)
    * [List Item Controller](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/src/main/java/edu/cnm/deepdive/mealornomeal/controller/ListItemController.java)
