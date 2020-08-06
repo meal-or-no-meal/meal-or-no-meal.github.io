@@ -74,7 +74,8 @@ It can also help to save money and reduce food waste. The trade-offs are often t
 
 * **User Instructions**
 
-    * [How to use the app ](user-instructions.md)
+    * [How to use Meal or no Meal](user-instructions.md)
+    *[The Build Instruction](build-instructions.md)
 
 * **External services**
 
