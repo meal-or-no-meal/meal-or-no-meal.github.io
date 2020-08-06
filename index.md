@@ -90,20 +90,21 @@ What the app is currently able to do:
 What we would like to improve:
 * High Priority Items
     
-    * INCOMPLETE - Calendar fragment does not currently display scheduled meals.
+    *
     * INCOMPLETE - Ingredients are not currently being stored or retrieved. They also need to be
     parsed from Strings to Lists of ingredient items.
     * INCOMPLETE - Shopping List does is not currently wired to retreive ingredients and needs date-range
     logic in the query
     * INCOMPLETE - Selecting a meal from a meal slot on the Calendar fragment does not yet display the details of the selected
     meal.
-    * INCOMPLETE - Calendar does not currently display the 
+    
     
     
 * Medium Priority Items
 
     * INCOMPLETE - Layout needs to be locked into a vertical mode.
     * BUG - Issue scheduling two meals in the same meal slot needs to be resolved.
+    * BUG - Crashes when trying to view meal details from mealslot
     * INCOMPLETE - Unable to remove meals from a scheduled slot
     * INCOMPLETE - Replace EditTexts for Meal Details input with a text popup to improve
         visual aesthetic and user functionality
