@@ -181,7 +181,7 @@ What we would like to improve:
 * **User Instructions**
 
     * [How to use Meal or no Meal](user-instructions.md)
-    *[The Build Instruction](build-instructions.md)
+    * [The Build Instruction](build-instructions.md)
 
 * **External services**
 
