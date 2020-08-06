@@ -89,7 +89,8 @@ What the app is currently able to do:
 #### Deficiencies
 What we would like to improve:
 * High Priority Items
-
+    
+    * INCOMPLETE - Calendar fragment does not currently display scheduled meals.
     * INCOMPLETE - Ingredients are not currently being stored or retrieved. They also need to be
     parsed from Strings to Lists of ingredient items.
     * INCOMPLETE - Shopping List does is not currently wired to retreive ingredients and needs date-range
