@@ -4,21 +4,25 @@ description: The Meal Planner / Grocery Lister Extraordinaire!
 layout: default
 ---
 ## Team Members
+
 #### Paul Cutter
 _Meal Creation, Scheduling, Wireframes_
 * [Email](pcutter@gmail.com)
 * [Github](https://github.com/pcutter1)
 * [LinkedIn](https://www.linkedin.com/in/pqcutter/)
+
 #### Mickie Morlang 
 _Calendar Component and SignIn/Auth_
 * [Email](mickiemorlang@gmail.com)
 * [Github](https://github.com/mmorlang)
 * [LinkedIn](https://www.linkedin.com/in/mickie-morlang-78a243185)
+
 #### Levi Sanchez
 _Back End, Ingredients, Styling_
 * [Email](levijames@gmail.com)
 * [Github](https://github.com/levisanchez)
 * [LinkedIn](https://www.linkedin.com/in/levi-james)
+
 #### Ambar Rodriguez
 _Navigation, User Entity, Styling_
 * [Email](rodriguez.ambar1@yahoo.com)
