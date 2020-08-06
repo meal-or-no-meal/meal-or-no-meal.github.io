@@ -59,6 +59,7 @@ It can also help to save money and reduce food waste. The trade-offs are often t
   
 ## Server component
 
+
 * **Functionality**
 
   The server will be able to allow users to store and retrieve customized meal calendars. It will also allow user to store and retrieve meals and meal information.
@@ -70,6 +71,10 @@ It can also help to save money and reduce food waste. The trade-offs are often t
     * monthly and weekly pre-made meal calendars uploaded by users
       
     * meal profiles which include their ingredients, cook time, health data and tags for dietary restrictions
+
+* **User Instructions**
+
+    * [How to use the app ](user-instructions.md)
 
 * **External services**
 
