@@ -82,7 +82,7 @@ What the app is currently able to do:
   * Navigate between Meals, Calendar, and Shopping List with bottom navigation.
     
     
-#### Improvements
+#### Deficiencies
 What we would like to improve:
 * High Priority Items
 
@@ -101,7 +101,31 @@ What we would like to improve:
     * BUG - Issue scheduling two meals in the same meal slot needs to be resolved.
     * INCOMPLETE - Unable to remove meals from a scheduled slot
     * INCOMPLETE - Replace EditTexts for Meal Details input with a text popup to improve
-    visual aesthetic and user functionality
+        visual aesthetic and user functionality
+
+    
+    
+### Aesthetic Improvements
+* Improved layout formatting to optimize screen space
+* Customized color themes and Text Styles
+* Adding images of ingredients and meals
+* Customized images for buttons and navigation
+* Splash Screen with Meal-Or-No-Meal logo
+* Changing color schemes based on season
+
+### Stretch goals/possible enhancements
+
+* Search for created meals functionality
+* Access SpoonTacular API to draw from a larget database of meals
+* Randomly populate meals to the calendar
+* Being able to share created meals / calendars with other users
+* Added functionality where you can list the ingredients you have and it will return a list of meals you can cook
+* Added functionality which allocates meals with shorter cooking times based on parameters set by user (.e.g. I only have an hour for lunch, so I only want lunch meals to be ones that take 30 min or less to cook)
+* Added information about health data (e.g. calories, % daily fiber, etc.)
+* Added customization for dietary restrictions (e.g. gluten free meals only, dairy free meals only)
+* Link cooking tutorial videos to meals
+* And so much more...
+
     
     
 
@@ -199,15 +223,3 @@ What we would like to improve:
    
    [ddl.md](https://github.com/meal-or-no-meal/meal-or-no-meal/blob/master/docs/ddl.md)   
 
-
-## Stretch goals/possible enhancements
-
-* Added functionality where you can list the ingredients you have and it will return a list of meals you can cook
-
-* Added functionality which allocates meals with shorter cooking times based on parameters set by user (.e.g. I only have an hour for lunch, so I only want lunch meals to be ones that take 30 min or less to cook)
-
-* Added information about health data (e.g. calories, % daily fiber, etc.)
-
-* Added customization for dietary restrictions (e.g. gluten free meals only, dairy free meals only)
-
-* Link cooking tutorial videos to meals
