@@ -27,7 +27,7 @@ _Navigation, User Entity, Styling_
 
 
 ## Project Overview
-* [Overview PDF](https://github.com/meal-or-no-meal/meal-or-no-meal.github.io/blob/master/pdf/project.pdf)
+* [Overview PDF](pdf/project.pdf)
 
 ## Summary
 
@@ -181,7 +181,7 @@ What we would like to improve:
 * **User Instructions**
 
     * [How to use Meal or no Meal](user-instructions.md)
-    *[The Build Instruction](build-instructions.md)
+    * [The Build Instruction](build-instructions.md)
 
 * **External services**
 
