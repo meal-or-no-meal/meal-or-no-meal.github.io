@@ -25,6 +25,10 @@ _Navigation, User Entity, Styling_
 * [Github](https://github.com/amberrz)
 * [LinkedIn](https://www.linkedin.com/in/ambar-rodriguez-9014571ab/)
 
+
+## Project Overview
+* [Overview PDF](project.pdf)
+
 ## Summary
 
 Meal planning is the best way to create healthier meals on an ongoing basis. 
