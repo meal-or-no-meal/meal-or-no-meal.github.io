@@ -5,7 +5,7 @@ layout: default
 ---
 ## Team Members
 
-###### Paul Cutter
+#### Paul Cutter
 _Meal Creation, Scheduling, Wireframes_
 * [Email](pcutter@gmail.com)
 * [Github](https://github.com/pcutter1)
