@@ -3,7 +3,7 @@
 ### Overview
 The Meal or no Meal API is organized around REST and is designed to have predictable, resource-oriented URLs. The API supports requests and responses in JSON format.
 
-## Queries
+### Queries
 For each request when running backend server package locally send Query strings to: http://localhost:8080/.  There is no other or token authentication required. 
 
 
@@ -17,7 +17,7 @@ The Meal or no Meal API uses standard HTTP methods as actions for all API reques
 |PUT   | 	Updates an object.  |  
 |DELETE   |  	Deletes an object. |  
 
-## Endpoints
+### Endpoints
 
 | Endpoint  | Description  | 
 |---|---|
