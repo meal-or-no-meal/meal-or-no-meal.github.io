@@ -19,15 +19,15 @@ The Meal or no Meal API uses standard HTTP methods as actions for all API reques
 
 ### Endpoints
 
-| Endpoint  | Description  | 
-|---|---|
-| GET /meals  |Returns all meals for user   |  
-| GET /meals{id}  |Returns meal based on User Id   | 
-| GET /ingredients/ | Returns all ingredients for a user | 
+| Endpoint  | Description  | Path Variables  | Request Body | Request Parmas  |return type  | 
+|---|---|---|---|---|---|
+| GET /meals  |Returns all meals for user   |  | |
+| GET /meals{id}  |Returns meal based on User Id   | ||
+| GET /ingredients/ | Returns all ingredients for a user | |
 | GET /ingredients/{id} | Returns ingredient by Id | 
-| GET /calendars/{id} | Returns all calendar items by Id |    
-| POST /meals/ | Create a meal  |
-| POST /calendars/ | Create a calendar item |
-| PUT /meals/{id} | Update a meal  |  
-| DELETE /meals/{id} | Deletes a meal  |  
-| DELETE /calendar/{id} | Deletes a calendar item  |  
+| GET /calendars/{id} | Returns all calendar items by Id |   | |
+| POST /meals/ | Create a meal  | | |
+| POST /calendars/ | Create a calendar item | | |
+| PUT /meals/{id} | Update a meal  |  | |
+| DELETE /meals/{id} | Deletes a meal  |  | |
+| DELETE /calendar/{id} | Deletes a calendar item  |  | |
