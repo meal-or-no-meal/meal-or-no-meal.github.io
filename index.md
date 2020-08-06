@@ -5,10 +5,25 @@ layout: default
 ---
 ## Team Members
 #### Paul Cutter
-#### Mickie Morlang
+_Meal Creation, Scheduling, Wireframes_
+* [Email](pcutter@gmail.com)
+* [Github](https://github.com/pcutter1)
+* [LinkedIn](https://www.linkedin.com/in/pqcutter/)
+#### Mickie Morlang 
+_Calendar Component and SignIn/Auth_
+* [Email](mickiemorlang@gmail.com)
+* [Github](https://github.com/mmorlang)
+* [LinkedIn](https://www.linkedin.com/in/mickie-morlang-78a243185)
 #### Levi Sanchez
+_Back End, Ingredients, Styling_
+* [Email](levijames@gmail.com)
+* [Github](https://github.com/levisanchez)
+* [LinkedIn](https://www.linkedin.com/in/levi-james)
 #### Ambar Rodriguez
-
+_Navigation, User Entity, Styling_
+* [Email](rodriguez.ambar1@yahoo.com)
+* [Github](https://github.com/amberrz)
+* [LinkedIn](https://www.linkedin.com/in/ambar-rodriguez-9014571ab/)
 
 ## Summary
 
@@ -21,6 +36,32 @@ It can also help to save money and reduce food waste. The trade-offs are often t
   task of creating a shopping list by using our Generate Shopping List feature based on the user's planned meals.
    Users can welcome food-planning back into their life and take it to the next level with Meal Or No Meal. 
  
+## The Motive
+
+The base motive behind the want or need for a meal planning application is universally human. 
+We don't believe there's a single person out there who hasn't at some point in their life wondered
+what they were going to eat for their next meal. Beyond that, this application has the potential to
+expand to a robust suite of features that can help improve many different aspects of life such as
+physical health, financial health, and even emotional health - all of which are in some way connected to
+the meals we eat. Spending too much money on eating out? Spending too much time meal-planning? Eating 
+too many unhealthy options because of last-minute decisions when you were already hungry?
+This app (and what it aims to be) can help with all of that.  
+
+## Key Functional Aspects
+
+There are 3 Key Functional Aspects to Meal or No Meal
+
+First - there's the ability to create/edit/delete a meal and store/retrieve that information from the database.
+This will include details such as the Name, Recipe, Ingredients, and Equipment needed to prepare the meal (e.g. a blender, a large pot, etc.)
+
+Next there's the ability to save a meal to a Breakfast, Lunch, or Dinner slot on the calendar. You can 
+select a day on the calendar and view the meals scheduled for that day. Then you can select one of those
+scheduled meals and view the details (recipe, ingredients, etc.) of that meal.
+
+And lastly there's the shopping list generator which does - well - exactly what it sounds like it does.
+It will generate a list of ingredients based on the meals you currently have scheduled in a certain date
+range. This list display will allow the user to check/uncheck ingredients as a visual cue for whether or not
+they need to acquire that ingredient. 
 
 
 ## Intended users
