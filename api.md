@@ -1,13 +1,13 @@
 ## Meal or no Meal API
 
-### Overview
+### Overview (incomplete)
 The Meal or no Meal API is organized around REST and is designed to have predictable, resource-oriented URLs. The API supports requests and responses in JSON format.
 
 ### Queries
 For each request when running backend server package locally send Query strings to: http://localhost:8080/.  There is no token or other authentication required. 
 
 
-### HTTP Methods
+### HTTP Methods 
 The Meal or no Meal API uses standard HTTP methods as actions for all API requests. The table below is a general rule of thumb for which HTTP methods are used.
 
 |Method |Description   |  
@@ -18,16 +18,21 @@ The Meal or no Meal API uses standard HTTP methods as actions for all API reques
 |DELETE   |  	Deletes an object. |  
 
 ### Endpoints
-
-| Endpoint  | Description  | Path Variables  | Request Body | Request Parmas  |return type  | 
-|---|---|---|---|---|---|
-| GET /meals  |Returns all meals for user   |  | |
-| GET /meals{id}  |Returns meal based on User Id   | ||
-| GET /ingredients/ | Returns all ingredients for a user | |
-| GET /ingredients/{id} | Returns ingredient by Id | 
-| GET /calendars/{id} | Returns all calendar items by Id |   | |
-| POST /meals/ | Create a meal  | | |
-| POST /calendars/ | Create a calendar item | | |
-| PUT /meals/{id} | Update a meal  |  | |
-| DELETE /meals/{id} | Deletes a meal  |  | |
-| DELETE /calendar/{id} | Deletes a calendar item  |  | |
+| Endpoint  |  Description  |Authentication Required | Path Variables  | Request Body | Request Parmas  | Request Header | Return type |
+|---|---|---|---|---|---|---|---|
+| GET /meal{id} | Returns meal based on Meal Id | Yes | | Long id |  |  | Meal | 
+| GET /meals  | Returns all meals in repository and orders by name | Yes | |  | | | Iterable\<Meal\> | 
+| GET /search | Returns all meals with names containing search parameter | Yes |  |  | (name = "q")String filter | |  | 
+| GET /ingredients/ | Returns all ingredients for a user | Yes | |  | | |  | 
+| GET /ingredient/{id} | Returns ingredient by Id | Yes | |  | | |  | 
+| GET /calendar/{id} | Returns all calendar items by Id | Yes | |  | | |  | 
+| POST /meal/ | Creates a meal  | Yes |  | Meal meal | | | ResponseEntity\<Meal\> | 
+| POST /calendar/ | Create a calendar item | Yes | |  | | |  | 
+| POST /meal/ | Creates a meal  | Yes |  | Meal meal | | | ResponseEntity\<Meal\> | 
+| PUT /meal/{id}/meal-name | Update a meal name | Yes | Long id | String name | | | Meal | 
+| PUT /meal/{id}/instruction | Update a meal recipe | Yes | Long id | String recipe | | | Meal |
+| PUT /meal/{id}/prep | Update a meal prep time | Yes | Long id | int prepTime | | | Meal |
+| PUT /meal/{id}/requirements | Update a meal tool requirements | Yes | Long id | String requirements | | | Meal | 
+| PUT /meal/{id}/ingredients/{ingredientId} | Update a meal ingredients | Yes | Long id, long ingredientId | Ingredient ingredient | | | Ingredient | 
+| DELETE /meals/{id} | Deletes a meal  | Yes | |  | | |  | 
+| DELETE /calendar/{id} | Deletes a calendar item  | Yes | |  | | |  W | 
