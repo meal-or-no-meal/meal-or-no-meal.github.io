@@ -1,6 +1,6 @@
 ## Meal or no Meal API
 
-### Overview (incomplete)
+### Overview
 The Meal or no Meal API is organized around REST and is designed to have predictable, resource-oriented URLs. The API supports requests and responses in JSON format.
 
 ### Queries
@@ -23,16 +23,19 @@ The Meal or no Meal API uses standard HTTP methods as actions for all API reques
 | GET /meal{id} | Returns meal based on Meal Id | Yes | | Long id |  |  | Meal | 
 | GET /meals  | Returns all meals in repository and orders by name | Yes | |  | | | Iterable\<Meal\> | 
 | GET /search | Returns all meals with names containing search parameter | Yes |  |  | (name = "q")String filter | |  | 
-| GET /ingredients/ | Returns all ingredients for a user | Yes | |  | | |  | 
-| GET /ingredient/{id} | Returns ingredient by Id | Yes | |  | | |  | 
-| GET /calendar/{id} | Returns all calendar items by Id | Yes | |  | | |  | 
+| GET /search | Returns all calendar items by date range | Yes |  |  | (params = "from", "to") searchByDate | | Iterable\<Calendar\> | 
+| GET /ingredients/ | Returns all ingredients for a user | Yes | |  |  | | Iterable\<Ingredients\> | 
+| GET /ingredient/{id} | Returns ingredient by Id | Yes | |  | | | Ingredient | 
+| GET /calendar/{id} | Returns all calendar items by Id | Yes | |  | | | Calendar | 
+| GET /list_items/{id} | Returns all ingredients items by Id | Yes | |  | | |  | 
 | POST /meal/ | Creates a meal  | Yes |  | Meal meal | | | ResponseEntity\<Meal\> | 
-| POST /calendar/ | Create a calendar item | Yes | |  | | |  | 
-| POST /meal/ | Creates a meal  | Yes |  | Meal meal | | | ResponseEntity\<Meal\> | 
+| POST /calendar/ | Create a calendar item | Yes | | Calendar calendar | | | ResponseEntity\<Calendar\> | 
+| POST /ingredient/ | Creates an ingredient  | Yes |  | Ingredient ingredient | | | ResponseEntity\<Ingredient\> | 
 | PUT /meal/{id}/meal-name | Update a meal name | Yes | Long id | String name | | | Meal | 
 | PUT /meal/{id}/instruction | Update a meal recipe | Yes | Long id | String recipe | | | Meal |
 | PUT /meal/{id}/prep | Update a meal prep time | Yes | Long id | int prepTime | | | Meal |
 | PUT /meal/{id}/requirements | Update a meal tool requirements | Yes | Long id | String requirements | | | Meal | 
 | PUT /meal/{id}/ingredients/{ingredientId} | Update a meal ingredients | Yes | Long id, long ingredientId | Ingredient ingredient | | | Ingredient | 
-| DELETE /meals/{id} | Deletes a meal  | Yes | |  | | |  | 
-| DELETE /calendar/{id} | Deletes a calendar item  | Yes | |  | | |  W | 
+| DELETE /meals/{id} | Deletes a meal  | Yes | |  | | | void | 
+| DELETE /calendar/{id} | Deletes a calendar item  | Yes | |  | | |  void | 
+| DELETE /ingredient/{id} | Deletes an ingredient item  | Yes | Long id, long ingredientId |  | | |  void | 
