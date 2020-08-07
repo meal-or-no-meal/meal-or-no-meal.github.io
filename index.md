@@ -90,7 +90,9 @@ What the app is currently able to do:
 What we would like to improve:
 * High Priority Items
     
-    *
+    * BUG - App no longer saves changes to meal data on edit.
+    * BUG - App crashes when a meal is deleted.
+    * BUG - App contiues to display scheduled meals when a new calendar date is selected.
     * INCOMPLETE - Ingredients are not currently being stored or retrieved. They also need to be
     parsed from Strings to Lists of ingredient items.
     * INCOMPLETE - Shopping List does is not currently wired to retreive ingredients and needs date-range
