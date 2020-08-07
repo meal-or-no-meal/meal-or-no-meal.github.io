@@ -18,8 +18,8 @@ The Meal or no Meal API uses standard HTTP methods as actions for all API reques
 |DELETE   |  	Deletes an object. |  
 
 ### Endpoints
-| Endpoint  |  Description  | Authentication Required | Path Variables  | Request Body | Request Params  | Request Header | Return type |
 
+| Endpoint  |  Description  | Authentication Required |  Path Variables  | Request Body | Request Params  | Request Header | Return type |
 |---|---|---|---|---|---|---|---|
 | GET /meal{id} | Returns meal based on Meal Id | Yes |  | Long id |  |  | Meal | 
 | GET /meals  | Returns all meals in repository and orders by name | Yes |  |  | |  | Iterable\<Meal\> | 
